@@ -1,0 +1,56 @@
+# Incident Management Framework
+
+A comprehensive incident management toolkit based on ITIL 4 principles and 10+ years of hands-on experience in IT operations and incident coordination.
+
+## 🎯 Overview
+
+This framework provides standardized templates, procedures, and best practices for managing IT incidents from detection through resolution. Designed for organizations implementing or improving their incident management processes.
+
+## 📋 What's Included
+
+- **Incident Response Procedures**: Step-by-step workflows for different incident severities
+- **Documentation Templates**: Ready-to-use forms and checklists
+- **Communication Plans**: Stakeholder communication templates
+- **Post-Incident Review**: Root cause analysis frameworks
+- **Metrics & Reporting**: KPI tracking templates
+
+## 🔧 Key Features
+
+- ITIL 4 aligned processes
+- Multi-severity incident classification (P1-P4)
+- SLA-driven response workflows
+- Escalation matrices
+- Stakeholder communication templates
+- Post-incident review templates
+
+## 📊 Incident Severity Classification
+
+| Priority | Response Time | Resolution Target | Examples |
+|----------|--------------|-------------------|----------|
+| P1 - Critical | 15 minutes | 4 hours | Complete service outage |
+| P2 - High | 1 hour | 8 hours | Major functionality impaired |
+| P3 - Medium | 4 hours | 24 hours | Minor functionality affected |
+| P4 - Low | 8 hours | 72 hours | Minimal impact, cosmetic issues |
+
+## 🚀 How to Use
+
+1. Review the incident response procedures
+2. Customize templates to match your organization's needs
+3. Train your team on the standardized processes
+4. Implement continuous improvement based on incident trends
+
+## 📈 Benefits
+
+- Reduced mean time to resolution (MTTR)
+- Improved stakeholder communication
+- Better incident documentation and knowledge management
+- Data-driven process improvements
+- Enhanced service reliability
+
+## 👤 About
+
+Created by Neel Kamal, experienced Project Manager and Incident Coordinator with expertise in ITIL frameworks and critical incident management.
+
+## 📄 License
+
+MIT License - Feel free to use and adapt for your organization.
