@@ -1,0 +1,78 @@
+# Post-Incident Review (PIR)
+
+## Incident Summary
+- **Incident ID**: [ID]
+- **Date of Incident**: [YYYY-MM-DD]
+- **Duration**: [Start - End time]
+- **Severity**: [P1/P2/P3/P4]
+- **Brief Description**: [One-line summary]
+
+## Participants
+- **Facilitator**: [Name]
+- **Note Taker**: [Name]
+- **Attendees**: 
+  - [Name, Role]
+  - [Name, Role]
+
+## What Happened?
+### Timeline of Events
+| Time | Event | Action Taken | Personnel |
+|------|-------|--------------|-----------|
+| HH:MM | [Event] | [Action] | [Name] |
+
+### Impact Assessment
+- **Users Affected**: [Number/Percentage]
+- **Services Impacted**: [List]
+- **Business Impact**: [Description]
+- **Financial Impact**: [If applicable]
+
+## Root Cause Analysis
+
+### The Five Whys
+1. **Why did the incident occur?** [Answer]
+2. **Why did [answer 1] happen?** [Answer]
+3. **Why did [answer 2] happen?** [Answer]
+4. **Why did [answer 3] happen?** [Answer]
+5. **Why did [answer 4] happen?** [Root cause]
+
+### Contributing Factors
+- [Factor 1]
+- [Factor 2]
+- [Factor 3]
+
+## What Went Well?
+- ✅ [Success 1]
+- ✅ [Success 2]
+- ✅ [Success 3]
+
+## What Could Be Improved?
+- ⚠️ [Improvement area 1]
+- ⚠️ [Improvement area 2]
+- ⚠️ [Improvement area 3]
+
+## Action Items
+
+| Action | Owner | Due Date | Priority | Status |
+|--------|-------|----------|----------|--------|
+| [Action to prevent recurrence] | [Name] | [Date] | [H/M/L] | [Open/In Progress/Done] |
+| [Process improvement] | [Name] | [Date] | [H/M/L] | [Open/In Progress/Done] |
+
+## Lessons Learned
+1. [Lesson 1]
+2. [Lesson 2]
+3. [Lesson 3]
+
+## Prevention Measures
+- [Measure 1]
+- [Measure 2]
+- [Measure 3]
+
+## Knowledge Base Updates Required
+- [ ] Create/update troubleshooting guide
+- [ ] Document resolution steps
+- [ ] Update runbook
+- [ ] Share lessons learned with team
+
+---
+**Review Date**: [YYYY-MM-DD]
+**Next Review**: [YYYY-MM-DD] (if applicable)
