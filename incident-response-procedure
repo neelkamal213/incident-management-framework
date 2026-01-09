@@ -1,0 +1,142 @@
+# Incident Response Procedure
+
+## Purpose
+To provide a standardized approach for detecting, responding to, and resolving IT incidents to minimize business impact and restore normal operations quickly.
+
+## Scope
+This procedure applies to all IT incidents affecting services, systems, or users within the organization.
+
+## Roles & Responsibilities
+
+### Incident Manager
+- Overall incident coordination
+- Stakeholder communication
+- Resource allocation
+- Post-incident review facilitation
+
+### Service Desk Agent
+- Incident logging and categorization
+- Initial triage and assessment
+- User communication
+- Documentation
+
+### Technical Team
+- Investigation and diagnosis
+- Resolution implementation
+- Technical documentation
+
+## Incident Lifecycle
+
+### 1. Detection & Logging (0-5 minutes)
+**Trigger**: User report, monitoring alert, or automated detection
+
+**Actions**:
+- Log incident in ticketing system
+- Assign unique incident ID
+- Record date/time, reporter, and initial description
+- Classify severity based on impact and urgency
+
+**Outputs**: Incident ticket created
+
+### 2. Categorization & Prioritization (5-10 minutes)
+**Actions**:
+- Determine incident category (Hardware, Software, Network, etc.)
+- Assess business impact (number of users, critical services)
+- Assign priority level (P1-P4)
+- Identify affected configuration items (CIs)
+
+**Priority Matrix**:
+| Impact ↓ / Urgency → | High | Medium | Low |
+|---------------------|------|--------|-----|
+| **Critical** | P1 | P1 | P2 |
+| **High** | P1 | P2 | P3 |
+| **Medium** | P2 | P3 | P4 |
+| **Low** | P3 | P4 | P4 |
+
+### 3. Investigation & Diagnosis
+**Actions**:
+- Gather additional information
+- Review similar past incidents
+- Check monitoring systems and logs
+- Identify root cause (if possible)
+- Determine resolution approach
+
+**Tools**:
+- Monitoring dashboards
+- Log analysis tools
+- Knowledge base
+- Configuration management database (CMDB)
+
+### 4. Resolution & Recovery
+**Actions**:
+- Implement resolution/workaround
+- Test to confirm service restoration
+- Verify user access and functionality
+- Document resolution steps taken
+
+**For P1/P2 Incidents**:
+- Implement workaround first (if available)
+- Then address permanent fix
+- Keep stakeholders updated every 30-60 minutes
+
+### 5. Closure
+**Actions**:
+- Confirm with user that issue is resolved
+- Complete all incident documentation
+- Update knowledge base if needed
+- Close incident ticket
+- Schedule PIR for P1/P2 incidents
+
+**Quality Checks**:
+- [ ] Resolution documented clearly
+- [ ] Root cause identified
+- [ ] User confirmed resolution
+- [ ] Knowledge base updated
+- [ ] SLA met or variance explained
+
+## Communication Requirements
+
+### P1 - Critical Incidents
+- **Initial notification**: Within 15 minutes to all stakeholders
+- **Updates**: Every 30 minutes until resolved
+- **Channels**: Email, SMS, conference bridge
+- **Stakeholders**: Executive team, affected business units, IT leadership
+
+### P2 - High Priority
+- **Initial notification**: Within 1 hour
+- **Updates**: Every 2 hours
+- **Channels**: Email, team chat
+- **Stakeholders**: Affected business units, IT management
+
+### P3/P4 - Medium/Low Priority
+- **Updates**: As needed or upon resolution
+- **Channels**: Email, ticket updates
+- **Stakeholders**: Requestor, assigned team
+
+## Escalation Triggers
+- SLA breach imminent (80% of time elapsed)
+- Resolution unclear or requires additional expertise
+- Multiple systems affected
+- Workaround not available
+- Management visibility required
+
+## Metrics & Reporting
+- Mean Time to Detect (MTTD)
+- Mean Time to Respond (MTTR)
+- Mean Time to Resolve (MTTR)
+- First Call Resolution Rate
+- SLA Compliance %
+- Incident Volume by Category
+- Repeat Incident Rate
+
+## Continuous Improvement
+- Monthly incident trend analysis
+- Quarterly procedure review
+- Regular team training
+- Post-incident reviews for major incidents
+- Knowledge base maintenance
+
+---
+**Document Owner**: Incident Management Team
+**Last Reviewed**: [Date]
+**Next Review**: [Date + 6 months]
