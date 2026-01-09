@@ -1,0 +1,57 @@
+# Incident Report Template
+
+## Incident Information
+- **Incident ID**: [AUTO-GENERATED]
+- **Date/Time Reported**: [YYYY-MM-DD HH:MM]
+- **Reported By**: [Name, Role]
+- **Severity Level**: [P1/P2/P3/P4]
+- **Status**: [New/In Progress/Resolved/Closed]
+
+## Incident Description
+### Summary
+[Brief one-line description]
+
+### Detailed Description
+[Comprehensive description of the issue]
+
+### Systems/Services Affected
+- [ ] System 1
+- [ ] System 2
+- [ ] System 3
+
+### User Impact
+- **Number of Users Affected**: [Number/Percentage]
+- **Business Impact**: [Critical/High/Medium/Low]
+- **Revenue Impact**: [Yes/No - Estimate if applicable]
+
+## Response Actions
+### Initial Response
+- **Time of First Response**: [HH:MM]
+- **Responder**: [Name]
+- **Initial Actions Taken**: 
+  1. [Action 1]
+  2. [Action 2]
+
+### Timeline of Actions
+| Time | Action Taken | Personnel | Result |
+|------|--------------|-----------|--------|
+| HH:MM | [Action] | [Name] | [Outcome] |
+
+## Resolution
+- **Resolution Time**: [YYYY-MM-DD HH:MM]
+- **Total Duration**: [Hours:Minutes]
+- **Root Cause**: [Brief explanation]
+- **Resolution Details**: [How the issue was resolved]
+
+## Follow-up Actions
+- [ ] Schedule post-incident review
+- [ ] Update knowledge base
+- [ ] Implement preventive measures
+- [ ] Communicate lessons learned
+
+## Stakeholder Communication Log
+| Time | Stakeholder | Communication Type | Message Summary |
+|------|-------------|-------------------|-----------------|
+| HH:MM | [Name/Group] | [Email/Call/Meeting] | [Brief summary] |
+
+---
