@@ -1,0 +1,81 @@
+# Incident Escalation Matrix
+
+## Escalation Criteria
+
+### When to Escalate
+- Incident remains unresolved beyond SLA timeframe
+- Issue complexity exceeds current team capabilities
+- Multiple systems affected
+- Senior stakeholder involvement required
+- Potential for significant business impact
+
+## Escalation Levels
+
+### Level 1: Service Desk / First Line Support
+- **Response Time**: 15 minutes (P1), 1 hour (P2)
+- **Scope**: Initial triage, basic troubleshooting
+- **Contact**: servicedesk@company.com
+
+### Level 2: Technical Support Team
+- **Response Time**: 30 minutes (P1), 2 hours (P2)
+- **Scope**: Advanced troubleshooting, system investigation
+- **Contact**: techsupport@company.com
+
+### Level 3: Senior Engineers / Specialists
+- **Response Time**: 45 minutes (P1), 4 hours (P2)
+- **Scope**: Complex technical issues, architecture changes
+- **Contact**: [Contact details]
+
+### Level 4: Management / Executive
+- **Response Time**: 1 hour (P1)
+- **Scope**: Business-critical decisions, major outages
+- **Contact**: [Contact details]
+
+## Escalation Workflow
+[Incident Detected]
+↓
+[L1 - Initial Response & Triage]
+↓
+[Can L1 Resolve?] → Yes → [Document & Close]
+↓ No
+[L2 - Technical Investigation]
+↓
+[Can L2 Resolve?] → Yes → [Document & Close]
+↓ No
+[L3 - Expert Intervention]
+↓
+[Can L3 Resolve?] → Yes → [Document & Close]
+↓ No
+[L4 - Management Escalation][Incident Detected]
+↓
+[L1 - Initial Response & Triage]
+↓
+[Can L1 Resolve?] → Yes → [Document & Close]
+↓ No
+[L2 - Technical Investigation]
+↓
+[Can L2 Resolve?] → Yes → [Document & Close]
+↓ No
+[L3 - Expert Intervention]
+↓
+[Can L3 Resolve?] → Yes → [Document & Close]
+↓ No
+[L4 - Management Escalation]
+
+## Escalation Communication Template
+
+**Subject**: ESCALATION - [Severity] - [Brief Description]
+
+**Incident Details**:
+- Incident ID: [ID]
+- Severity: [P1/P2/P3/P4]
+- Started: [Date/Time]
+- Duration: [Hours]
+
+**Current Status**: [Brief update]
+
+**Reason for Escalation**: [Why escalating]
+
+**Action Required**: [What you need from the escalation point]
+
+**Business Impact**: [User/revenue impact]
